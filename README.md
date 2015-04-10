@@ -20,6 +20,7 @@ include(".dms_php_sdk/Pusher.php");
 ###使用
 新建pusher对象，传入dms的publish key 和subscribe key
 ```php
+use dms;//at head
 $pusher= new Pusher('your pub key','your sub key');
 ```
 推送数据
